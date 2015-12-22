@@ -8,6 +8,7 @@
         <script>
             $(document).ready(function(){
                $('[data-toggle="tooltip"]').tooltip();
+               $('[data-toggle="popover"]').popover();
             });
         </script>
     </head>
@@ -122,6 +123,35 @@
                 </div>
                 
                 <p><a href="#" data-toggle="tooltip" title="Bootstrap" data-placement="bottom">BS</a> KitchenSink</p>
+                    <button class="btn btn-default" data-toggle="tooltip" title="KitchenSink" data-placement="left">Hover here</button>
+                <div>
+                    <a href="#" data-toggle="popover" title="KitchenSink" data-content="popover content" 
+                       data-trigger="hover">PopOver Here
+                    </a>
+                </div>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="Your password">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <select class="form-control">
+                            <option>Select your country</option>
+                            <option>Singapore</option>
+                            <option>Hong Kong</option>
+                        </select>
+                    </div>
+                </form>
+                
             </div>
         </div>
         
@@ -433,31 +463,6 @@
                     </form>
                 </div>
             </div>
-        </div>
-        
-        <div class="row">
-                <form class="form-inline">
-                    <div class="form-group">
-                        <label>Full Name</label>
-                        <input type="text" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" class="form-control" placeholder="Your password">
-                    </div>
-                    <div class="form-group">
-                        <label>Password</label>
-                        <select class="form-control">
-                            <option>Select your country</option>
-                            <option>Singapore</option>
-                            <option>Hong Kong</option>
-                        </select>
-                    </div>
-                </form>
         </div>
         
         </div>
