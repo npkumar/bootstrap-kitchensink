@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <title>Bootstrap KitchenSink</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="../js/jquery-1.11.2.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+               $('[data-toggle="tooltip"]').tooltip();
+               $('[data-toggle="popover"]').popover();
+            });
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-custom navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="" class="navbar-brand">My Blog</a>
+                </div>
+                <div class="form-inline nav navbar-nav navbar-right" style="padding: 10px;">
+                    <div class="input-group">
+                        <input type="search" class="form-control">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Life</a></li>
+                    <li><a href="">Code</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <header style="background: url(img/header.png);">
+            <div class="text-center">
+                <h1>The Awesome Blog</h1>
+                <p class="lead">The most kickass blog</p>
+            </div>
+        </header>
+    </body>
+</html>
