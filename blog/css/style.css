@@ -1,0 +1,20 @@
+.navbar-custom {
+
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+.nav li a:hover{
+    background: maroon;
+}
+
+header {
+    color: white;
+    height: 350px;
+    padding: 150px 50px;
+}
