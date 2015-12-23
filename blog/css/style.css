@@ -18,3 +18,17 @@ header {
     height: 350px;
     padding: 150px 50px;
 }
+
+.post {
+    border-bottom: 1px solid black;
+}
+
+.post a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post a:hover {
+    color: maroon;
+}
